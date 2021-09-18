@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+    <h2>Check File Hash</h2>
+
+    <form action="/" method="post">
+        <label for="file_hash">Hash: </label><br>
+        <input type="text" id="file_hash" name="file_hash" /><br>
+        <input type="submit" value="Submit" />
+    </form>
+
+</main>
+{% endblock content %}
